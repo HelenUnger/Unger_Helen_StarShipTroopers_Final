@@ -1,0 +1,619 @@
+/* HELPER CLASSES */
+.boxHelper
+{
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.boxHelper2
+{
+  background-color: blue;
+  color: #fff;
+}
+
+body
+{
+  background-image: url(../images/background_mobile.jpg);
+  color: #fff;
+}
+
+h2
+{
+  font-size: 3em;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Audiowide", serif;
+}
+
+h3
+{
+  font-size: 2em;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+p
+{
+  font-size: 1em;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+/* MAIN HEADER AND NAV */
+#mainHeader
+{
+  margin-bottom: 10px;
+  background-color: #cccccc;
+  border-bottom: 3px solid black;
+  color: #000;
+  /* padding-bottom: 15px; */
+}
+
+.title-bar
+{
+  background-color: #cccccc;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 0;
+}
+
+.title-bar .menu-icon
+{
+  display: block;
+  width: 30px;
+  height: 25px;
+  margin-left: 0;
+}
+
+.menu-icon::after
+{
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 0 10px 0 #000, 0 20px 0 #000;
+}
+
+.menu-icon:hover::after
+{
+  background: #424242;
+  box-shadow: 0 10px 0 #424242, 0 20px 0 #424242;
+}
+
+#mainNav
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+}
+
+#mainNav a
+{
+  display: block;
+  padding: 10px 0 10px 0;
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #808080;
+  color: #000;
+}
+
+#mainNav li a:hover
+{
+  background-color: #424242;
+  color: #fff;
+}
+
+#mainNav li:last-of-type{
+  display: block;
+  height: 15px;
+  background-color: #cccccc;
+}
+
+#mainFooter
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: #cccccc;
+}
+
+#mainFooter a{
+  color: #808080;
+  font-size: 0.75em;
+  font-family: 'Do Hyeon', sans-serif;
+  padding: 0 1% 0 1%;
+}
+
+
+
+
+
+/* INDEX */
+#indexLogo{
+  max-width: 150%;
+  display: block;
+  margin: 0 auto;
+}
+
+#splashImg{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.indexPromo{
+  text-align: center;
+  padding: 5px 20px;
+}
+
+
+
+/* TRAILER */
+.player{
+  position: relative;
+}
+
+.player h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.main-play{
+  display: block;
+  font-size: 4em;
+  left: 45%;
+  top: 50%;
+  text-align: center;
+  position: absolute;
+}
+
+.play-hide{
+  display: none;
+}
+
+video{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
+
+.controls{
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 5%;
+}
+
+.controls li{
+  display: inline;
+  font-size: 3em;
+  margin-right: 2%;
+  text-decoration: none;
+}
+
+.controls p{
+  display: inline;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+.trailerPromo{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.trailerPromo img{
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.trailerPromo p{
+  text-align: center;
+  padding-left: 5px;
+  font-size: 1.5em;
+}
+
+
+
+
+/* STORY */
+.logo{
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.storyInfo{
+  text-align: center;
+}
+
+.storyInfo h2
+{
+font-size: 2.5em;
+padding-left: 20px;
+}
+
+.storyInfo p
+{
+  font-size: 1.2em;
+  padding: 5px 20px 5px 20px;
+}
+
+.galleryPhoto
+{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.galleryPhoto img
+{
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
+.galleryPhoto a
+{
+  padding: 5px 10px 5px 10px;
+  background-color: #cccccc;
+  color: #000;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+
+
+
+
+
+/* GALLERY */
+.galleryText
+{
+  text-align: center;
+}
+
+.galleryText p{
+  font-size: 1.5em;
+}
+
+.gallery{
+  margin-bottom: 30px;
+}
+
+.reveal{
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 2em;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+
+
+
+
+/* ENLIST */
+#enlistLogo{
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.register{
+  padding-left: 30px;
+}
+
+.register h2
+{
+  font-size: 2em;
+  text-align: center;
+}
+
+.promo{
+  padding-right: 30px;
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.promo img{
+  max-width: 50%;
+  padding: 0;
+}
+
+.registerForm{
+  display: block;
+  max-width: 300px;
+  font-size: 1em;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.registerForm input{
+  display: inline;
+  max-width: 300px;
+  height: 1.5em;
+}
+
+.registerForm input:last-of-type{
+  width: 20px;
+}
+
+.registerForm button{
+  background-color: #fff;
+  color: #000;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin: 0 auto;
+  padding: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+label {
+  display: inline;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* MEDIUM */
+@media screen and (min-width: 640px) {
+
+  body
+  {
+    background-image: url(../images/background_tablet.jpg);
+  }
+
+  #mainNav a
+  {
+    font-size: 1.5em;
+  }
+
+  /* INDEX */
+  #indexLogo{
+    max-width: 150%;
+  }
+
+  /*TRAILER*/
+  .player h2{
+    font-size: 2em;
+  }
+
+  .main-play{
+    top: 35%;
+  }
+
+  .trailerPromo{
+    padding-left: 100px;
+  }
+
+  /* GALLERY */
+  .galleryText p{
+    font-size: 2em;
+  }
+
+  /* ENLIST */
+  .logo
+  {
+    max-width: 50%;
+  }
+
+  .promo{
+    margin: 10px 0 50px 0;
+  }
+
+  .registerForm{
+    margin-left: 0;
+  }
+
+  .register h2
+  {
+    text-align: left;
+  }
+
+  #mainFooter a{
+    font-size: 1.5em;
+  }
+}
+
+
+@media screen and (min-width: 690px) {
+  #indexLogo{
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 810px) {
+  #indexLogo{
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  #indexLogo{
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 920px) {
+  #indexLogo{
+    max-width: 75%;
+  }
+}
+
+/*LARGE*/
+@media screen and (min-width: 1024px) {
+
+    body
+    {
+      background-image: url(../images/background.jpg);
+    }
+
+    #mainHeader
+    {
+      position: relative;
+      padding-bottom: 0;
+    }
+
+    #main-menu
+    {
+      position: relative;
+    }
+
+    #mainNav
+    {
+      text-align: center;
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+
+    #mainNav li
+    {
+      border-bottom: none;
+      display: inline;
+      margin-left: 0px;
+    }
+
+    #mainNav li a
+    {
+      display: inline;
+      background-color: #cccccc;
+      padding: 20px 0 5px 0;
+      font-size: 1.5em;
+    }
+
+    #mainNav li a:hover
+    {
+      color: #fff;
+      background-color: #000;
+    }
+
+    #mainNav .active
+    {
+      color: #fff;
+      background-color: #000;
+      padding-bottom: 5px;
+    }
+
+    #indexLogo{
+      max-width: 50%;
+    }
+
+    /*TRAILER*/
+    #trailerLogo img{
+      max-width: 35%;
+    }
+
+    .player h2{
+      font-size: 2.5em;
+      margin-top: 0;
+    }
+
+    .main-play{
+      top: 40%;
+    }
+
+
+    /* STORY */
+    .storyInfo{
+      text-align: left;
+    }
+
+    .storyInfo h2
+    {
+    font-size: 2em;
+    }
+
+    .storyInfo p
+    {
+      font-size: 1.2em;
+    }
+
+    .storyInfo img
+    {
+      max-width: 70%;
+      margin-left: 0;
+    }
+
+    .galleryPhoto img
+    {
+      margin-top: 20%;
+    }
+
+
+    /* ENLIST */
+  }
+
+
+  @media screen and (min-width: 1133px) {
+    #indexLogo{
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 1370px) {
+    #indexLogo{
+      max-width: 50%;
+      margin-left: 40%;
+    }
+  }
+
+  /* @media screen and (min-width: 1440px) {
+    #indexLogo{
+      margin-left: 45%;
+      max-width: 35%;
+    }
+  } */
+
+  /* @media screen and (min-width: 1510px) {
+    #indexLogo{
+      max-width: 40%;
+    }
+  } */
+
+  @media screen and (min-width: 1600px) {
+    #indexLogo{
+      margin-left: 40%;
+      max-width: 30%;
+    }
+  }
+
+
+  @media screen and (min-width: 1700px) {
+    #indexLogo{
+      margin-left: 40%;
+      max-width: 35%;
+    }
+  }
+
+
+  @media screen and (min-width: 2000px) {
+    #indexLogo{
+      max-width: 650px;
+    }
+
+    #splashImg{
+      width: 1700px;
+      left: 0;
+      right: 0;
+    }
+  }
